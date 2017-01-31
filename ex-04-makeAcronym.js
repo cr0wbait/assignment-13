@@ -9,7 +9,7 @@
 
 function makeAcronym (initStr){
     var initRA = initStr.split(" ");
-    var acroNym = "";
+    var acroNym = '';
     for (i=0;i<initRA.length;i++){
       var acroElem = initRA[i].length[0];
       acroNym = acroNym + acroElem;

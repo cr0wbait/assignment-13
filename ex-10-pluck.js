@@ -6,14 +6,14 @@
 // e.g:
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
+ function pluck (listObs){
+  var listVals = [];
+  for (prop in listObs)
 
 
 
-
-
-
-
-
+  return listVals
+}
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
 var stooges = [

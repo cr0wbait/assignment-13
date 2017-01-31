@@ -7,13 +7,15 @@
 **/
 
 function getCapitalLetters (initStr){
-  var imMortals = [''];
+  var imMortals = [];
   for (i=0;i<initStr.length;i++){
     var highLander = initStr[i];
     if (highLander === highLander.toUpperCase()){
       imMortals.push(highLander);
     }
-  } return imMortals;
+  }
+  console.log(imMortals)
+  return imMortals;
 }
 
 //not sure what the problem is here, get help

@@ -17,7 +17,7 @@
  *              }
 **/
 
-function showStats(initNum, [numRA]){
+function showStats(initNum, numRA){
   var statOb = {
     count_inputEqualTo: 0,
     count_inputGreaterThan: 0,
