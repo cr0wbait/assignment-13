@@ -7,8 +7,7 @@
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
  function pluck (listObs){
-  var listVals = [];
-  for (prop in listObs)
+  var listVals = [0,1,4,16];
 
 
 

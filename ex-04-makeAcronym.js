@@ -9,12 +9,13 @@
 
 function makeAcronym (initStr){
     var initRA = initStr.split(" ");
+    console.log(initRA)
     var acroNym = '';
     for (i=0;i<initRA.length;i++){
-      var acroElem = initRA[i].length[0];
-      acroNym = acroNym + acroElem;
+      var acroElem = initRA[i].charAt(0);
+      acroNym = acroNym + acroElem.toUpperCase;
     }
-
+    console.log(acroNym)
     return acroNym
 
 

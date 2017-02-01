@@ -10,7 +10,7 @@ function getCapitalLetters (initStr){
   var imMortals = [];
   for (i=0;i<initStr.length;i++){
     var highLander = initStr[i];
-    if (highLander === highLander.toUpperCase()){
+    if (highLander === highLander.toUpperCase() ){
       imMortals.push(highLander);
     }
   }

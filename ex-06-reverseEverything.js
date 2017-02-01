@@ -18,13 +18,14 @@
 
 // Hint, you may want to use reverseObject() as a helper function.
 
+function reverseEverything (backwards){
 
 
 
+var backass = "palindromic testicles"
 
-
-
-
+return backass
+}
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 var usersList = [
