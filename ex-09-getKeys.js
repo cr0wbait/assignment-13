@@ -7,13 +7,14 @@
 //   => ['pid', 'title', 'price']
 
 function getKeys (initObj){
-
-
-
-var demKeys = "hellnaw"
-
-
-
+	var demKeys = []
+	for (key in initObj){
+		if (initObj.hasOwnProperty(key)){
+			console.log(key)
+			demKeys.push(key)
+		}
+	}
+	console.log(demKeys)
 return demKeys
 }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

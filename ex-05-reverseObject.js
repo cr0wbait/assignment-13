@@ -3,7 +3,7 @@
 // Write a function called reverseObject(). It should take as input an object,
 // and it should output a new object where the keys and values are reversed.
 
-function reverseObject(initObj){
+// function reverseObject(initObj){
 	var revObj = {};
 
 	return revObj

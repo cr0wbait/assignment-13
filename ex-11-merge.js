@@ -10,15 +10,15 @@
 ////------------------------------------------------------------------
 
 
-function merge (initStr){
+// function merge (initStr){
 
 
-var snek = "don't tread on me"
+  var snek = "don't tread on me"
 
 
 
-return snek
-}
+  return snek
+  }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 var obj1 = {name: "Shaman Tilroy", age: 33, id: 6288}
 var obj2 = {id: 6288, balance: 38832, accountActive: true }

@@ -7,8 +7,8 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
-function makeAcronym (initStr){
-    var initRA = initStr.split(" ");
+// function makeAcronym (initStr){
+    var initRA = initStr.split(' ');
     console.log(initRA)
     var acroNym = '';
     for (i=0;i<initRA.length;i++){

@@ -4,7 +4,7 @@
  // a properties object. It should return a new list containing only those
  // objects that meet the key-value conditions in the properties object.
 
-var where = function(initRA, criteOb){
+// var where = function(initRA, criteOb){
   var filtListObs = [];
   for (i=0;i<initRA;i++){
     var solOb = initRA[i];
@@ -19,7 +19,7 @@ var where = function(initRA, criteOb){
     }
   }
   return filtListObs
-}
+  }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
  var plays = [

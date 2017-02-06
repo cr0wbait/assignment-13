@@ -5,7 +5,7 @@
 
 // Note that your counts should NOT be case-sensitive.
 
- var getWordCount = function (inputStr){
+// var getWordCount = function (inputStr){
   var wordRA = inputStr.split(" ");
   var wordCount = {};
   for (i=0;i<wordRA.length;i++){
@@ -18,7 +18,7 @@
     }
   }
   return wordCount
-}
+  }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
 var sampleText = "I'm tired of trying to find happiness through lies and self-medicating. If you need me, I'll be at the bar. The only thing I found in the fridge was a dead dove in a bag. But anyhoo, can you believe that the only reason the club is going under is because it's in a terrifying neighborhood? Oh, I'm sorry, I forgot… your wife is dead! They once called me the worst audience participant Cirque du Soleil ever had. \
