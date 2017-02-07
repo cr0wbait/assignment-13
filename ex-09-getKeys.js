@@ -10,11 +10,11 @@ function getKeys (initObj){
 	var demKeys = []
 	for (key in initObj){
 		if (initObj.hasOwnProperty(key)){
-			console.log(key)
+			// console.log(key)
 			demKeys.push(key)
 		}
 	}
-	console.log(demKeys)
+	// console.log(demKeys)
 return demKeys
 }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

@@ -10,7 +10,7 @@
 ////------------------------------------------------------------------
 
 
-// function merge (initStr){
+ function merge (initStr){
 
 
   var snek = "don't tread on me"
@@ -35,7 +35,7 @@ console.assert(mergedObj1.accountActive === true)
 var obj3 = {title: "How to Wear a Bowtie", artist: "Showtime", released: 1984 }
 var obj4 = {artist: "The Riverboat", released: 1980, album: "Wishy Washy", quantity: 10 }
 
-var mergedObj2 = merge(obj3, obj4)
+var mergedObj_2 = merge(obj3, obj4)
 
 console.assert( mergedObj_2.artist === "The Riverboat" )
 console.assert( mergedObj_2.released === 1980 )

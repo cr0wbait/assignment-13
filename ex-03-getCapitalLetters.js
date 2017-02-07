@@ -14,7 +14,7 @@ function getCapitalLetters (initStr){
       imMortals.push(highLander);
     }
   }
-  console.log(imMortals)
+  // console.log(imMortals)
   return imMortals;
 }
 

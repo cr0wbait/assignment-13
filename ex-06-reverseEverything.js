@@ -19,6 +19,7 @@
 // Hint, you may want to use reverseObject() as a helper function.
 
 function reverseEverything (backwards){
+  return backwards
 }
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

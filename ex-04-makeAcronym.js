@@ -7,15 +7,16 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
-// function makeAcronym (initStr){
+ function makeAcronym (initStr){
     var initRA = initStr.split(' ');
-    console.log(initRA)
+    // console.log(initRA)
     var acroNym = '';
     for (i=0;i<initRA.length;i++){
-      var acroElem = initRA[i].charAt(0);
-      acroNym = acroNym + acroElem.toUpperCase;
+      var acroElem = initRA[i].charAt(0).toUpperCase();
+      console.log(acroElem)
+      acroNym = acroNym + acroElem;
     }
-    console.log(acroNym)
+    // console.log(acroNym)
     return acroNym
 
 

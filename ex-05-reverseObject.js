@@ -3,8 +3,14 @@
 // Write a function called reverseObject(). It should take as input an object,
 // and it should output a new object where the keys and values are reversed.
 
-// function reverseObject(initObj){
+// kudos to Victor for the thought-process assist
+
+
+function reverseObject(initObj){
 	var revObj = {};
+	for (keys in initObj){
+		revObj[initObj[keys]] = keys
+	}
 
 	return revObj
 }

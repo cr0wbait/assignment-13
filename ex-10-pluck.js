@@ -6,7 +6,7 @@
 // e.g:
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
-// function pluck (listObs){
+ function pluck (listObs){
   var listVals = [0,1,4,16];
 
 

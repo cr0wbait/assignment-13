@@ -5,7 +5,7 @@
 
 // Note that your counts should NOT be case-sensitive.
 
-// var getWordCount = function (inputStr){
+var getWordCount = function (inputStr){
   var wordRA = inputStr.split(" ");
   var wordCount = {};
   for (i=0;i<wordRA.length;i++){
