@@ -18,8 +18,18 @@
 
 // Hint, you may want to use reverseObject() as a helper function.
 
-function reverseEverything (backwards){
-  return backwards
+function reverseEverything (objayRA){
+  objayRA.reverse()
+  var backwardsRA = [];
+  for (i=0;i<objayRA.length;i++){
+    var initObj = objayRA[i]
+    var revObj = {};
+    for (keys in initObj){
+      revObj[initObj[keys]] = keys
+    }
+  backwardsRA.push(revObj)
+}
+  return backwardsRA;
 }
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

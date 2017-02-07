@@ -9,7 +9,7 @@ var getWordCount = function (inputStr){
   var wordRA = inputStr.split(" ");
   var wordCount = {};
   for (i=0;i<wordRA.length;i++){
-    var someWord = wordRA[i]
+    var someWord = wordRA[i].toLowerCase()
 
     if(typeof wordCount[someWord] === 'undefined'){
       wordCount[someWord] = 1

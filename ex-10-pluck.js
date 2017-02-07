@@ -6,12 +6,12 @@
 // e.g:
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
- function pluck (listObs){
-  var listVals = [0,1,4,16];
-
-
-
-  return listVals
+ function pluck (inputList, inputKey){
+   var resultRA = [];
+  for (i=0;i<inputList.length;i++){
+    resultRA.push( inputList[i][inputKey])
+      }
+  return resultRA
   }
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
